@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "places",
+    "description": "An empty new project",
+    "slug": "places",
+    "privacy": "public",
+    "sdkVersion": "23.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "id.magga.reactnative.favoriteplaces"
+    },
+    "android": {
+      "package": "id.magga.reactnative.favoriteplaces",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyASfM16UhTgf3MTO3zYC98ILFlJBQ9ppTM"
+        }
+      }
+    }
+  }
+}
